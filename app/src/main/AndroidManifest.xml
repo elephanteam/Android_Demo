@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.elephantgroup.one">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:ignore = "GoogleAppIndexingWarning"
+        android:theme="@style/AppBaseTheme">
+
+        <activity android:name=".ui.home.MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.wallet.WalletCreateActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.wallet.WalletAccountActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.wallet.WalletSelectActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.wallet.WalletMnemonicActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.wallet.WalletExportActivity"
+            android:screenOrientation="portrait"/>
+
+        <!--<activity android:name=".ui.home.MainActivity"-->
+            <!--android:windowSoftInputMode="adjustResize|stateHidden"-->
+            <!--android:launchMode="singleTask"/>-->
+
+    </application>
+
+</manifest>

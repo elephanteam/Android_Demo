@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">OneDemo</string>
+
+    <string name="main_chats">聊天</string>
+    <string name="main_contact">通讯录</string>
+    <string name="main_discover">发现</string>
+    <string name="main_mine">我的</string>
+
+    <!-- 异常相关 -->
+    <string name="crash_mobile_models">手机型号 = </string>
+    <string name="crash_system_version">系统版本 = </string>
+    <string name="crash_app_version">应用版本 = </string>
+    <string name="crash_app_channel">应用渠道 = </string>
+    <string name="crash_crash_time">崩溃时间 = </string>
+
+    <!-- 登陆 -->
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="user_forgot_password">忘记密码?</string>
+    <string name="user_id">UID/Mobile/Email</string>
+    <string name="user_password">输入密码</string>
+
+    <!-- 通用 -->
+    <string name="next">下一步</string>
+    <string name="save">保存</string>
+
+    <!-- 钱包 web3j 相关-->
+    <string name="wallet">钱包</string>
+    <string name="wallet_create">创建钱包</string>
+    <string name="wallet_create_ing">正在创建账户</string>
+    <string name="wallet_create_success">创建账户成功!</string>
+    <string name="wallet_create_error">创建账户失败!</string>
+    <string name="wallet_delete">删除钱包</string>
+    <string name="wallet_import">导入钱包</string>
+    <string name="wallet_backup">备份钱包</string>
+    <string name="wallet_list">钱包列表</string>
+    <string name="wallet_name_hint">账户名称</string>
+    <string name="wallet_name_error">请输入 1 – 12位账户名称</string>
+    <string name="wallet_name_exist">钱包名已存在</string>
+    <string name="wallet_pwd_hint">账户密码</string>
+    <string name="wallet_pwd_tip_hint">密码提示</string>
+    <string name="wallet_pwd_error">请输入 8 – 18位密码</string>
+    <string name="wallet_pwd_tip_error">密码提示不得超过20位</string>
+    <string name="wallet_pwd_match_error">两次密码不一致</string>
+    <string name="wallet_confirm_pwd_hint">确认账户密码</string>
+    <string name="wallet_memory_error">内存不足</string>
+
+    <string name="wallet_mnemonic_backup">抄写下你的钱包助记词</string>
+    <string name="wallet_mnemonic_1">助记词用于恢复钱包或重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方。</string>
+    <string name="wallet_mnemonic_2">如果有人获取你的助记词将直接获取你的资产！请抄写助记词并存放在安全的地方。</string>
+    <string name="wallet_mnemonic_3">请勿截图</string>
+    <string name="wallet_mnemonic_4">备份失败</string>
+    <string name="wallet_mnemonic_5">你未完成助记词备份，离开当前页面将从钱包移除该助记词，是否离开？</string>
+    <string name="wallet_mnemonic_6">你备份的助记词顺序验证正确，将从钱包移除该助记词？</string>
+    <string name="wallet_mnemonic_7">确认你的钱包助记词</string>
+    <string name="wallet_mnemonic_8">请按顺序点击助记词，以确认你的备份助记词正确。</string>
+    <string name="wallet_mnemonic_9">立即备份你的钱包</string>
+    <string name="wallet_mnemonic_10">备份钱包：导出 [助记词] 并抄写到安全的地方，千万不要保存到网络上。然后尝试转入、转出小额资产开始使用。</string>
+    <string name="wallet_mnemonic_11">请检查你的助记词</string>
+    <string name="wallet_mnemonic_12">助记词，按空格分隔</string>
+    <string name="wallet_mnemonic_13">备份助记词</string>
+
+    <string name="wallet_export_private_key">导出私钥明文</string>
+    <string name="wallet_export_keystore">导出KeyStore</string>
+    <string name="wallet_export_name">账户名：%s</string>
+    <string name="wallet_export_pwd_info">密码提示：%s</string>
+
+    <string name="wallet_update_name_exist">This username already exists!</string>
+    <string name="wallet_update_name_empty">Wallet name cannot be empty</string>
+    <string name="wallet_update_name_success">Successfully modified</string>
+
+
+
+
+
+</resources>

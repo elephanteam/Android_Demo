@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 首页导航 -->
+    <string-array name="bottom_bar_labels">
+        <item>@string/main_chats</item>
+        <item>@string/main_contact</item>
+        <item>@string/main_discover</item>
+        <item>@string/main_mine</item>
+    </string-array>
+
+    <string-array name="bottom_normal_icon">
+        <item>@mipmap/bottom_chat</item>
+        <item>@mipmap/bottom_contact</item>
+        <item>@mipmap/bottom_found</item>
+        <item>@mipmap/bottom_mine</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/app_title_layout"/>
+
+
+    <EditText
+        android:id="@+id/userName"
+        style="@style/EditTextSingleStyle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/user_id" />
+
+    <ImageView
+        android:id="@+id/clearUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:src="@mipmap/icon_clear_name" />
+
+    <View
+        android:id="@+id/userNameLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/userName"
+        android:background="@color/tab_sep_line"/>
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/EditTextSingleStyle"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/userNameLine"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:hint="@string/user_password" />
+
+    <ImageView
+        android:id="@+id/isShowPass"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userNameLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:src="@mipmap/icon_eye_close" />
+
+    <View
+        android:id="@+id/passwordLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/password"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/tab_sep_line"/>
+
+
+    <TextView
+        android:id="@+id/login"
+        style="@style/EditTextStyle"
+        android:layout_below="@+id/passwordLine"
+        android:layout_marginTop="40dp"
+        android:text="@string/login"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_gradient_color_primary_30" />
+
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/textColorHintPrimary"
+        android:text="@string/user_forgot_password" />
+
+</RelativeLayout>

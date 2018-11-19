@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/app_title_layout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wallet_mnemonic_backup"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wallet_mnemonic_1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:textColor="@color/color_323232"
+        />
+
+    <com.limit.one.custom.flowtag.FlowTagLayout
+        android:id="@+id/mnemonicAddFlowTag"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_solid_1a8e8e93_5"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+    </com.limit.one.custom.flowtag.FlowTagLayout>
+
+
+    <TextView
+        android:id="@+id/mnemonicNext"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="@string/next"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_gradient_color_primary_30"/>
+
+</LinearLayout>

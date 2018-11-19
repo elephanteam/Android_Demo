@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">OneDemo</string>
+
+    <string name="main_chats">Chat</string>
+    <string name="main_contact">Contacts</string>
+    <string name="main_discover">Discover</string>
+    <string name="main_myself">Me</string>
+
+    <!-- crash -->
+    <string name="crash_mobile_models">Mobile phone model = </string>
+    <string name="crash_system_version">System version = </string>
+    <string name="crash_app_version">Application version = </string>
+    <string name="crash_app_channel">Application channel = </string>
+    <string name="crash_crash_time">Crash time = </string>
+
+    <!-- login -->
+    <string name="login">Login</string>
+    <string name="register">Sign up</string>
+    <string name="user_forgot_password">Forgot password?</string>
+    <string name="user_id">UID/Mobile/Email</string>
+    <string name="user_password">Enter password</string>
+
+    <!-- normal -->
+    <string name="next">Next</string>
+    <string name="save">Next</string>
+
+    <!-- wallet web3j-->
+    <string name="wallet">Wallet</string>
+    <string name="wallet_create">Create wallet</string>
+    <string name="wallet_create_ing">Creating...</string>
+    <string name="wallet_create_success">Create wallet success!</string>
+    <string name="wallet_create_error">Failed to create account!</string>
+    <string name="wallet_delete">Delete wallet</string>
+    <string name="wallet_import">Import wallet</string>
+    <string name="wallet_backup">Backup wallet</string>
+    <string name="wallet_list">Wallet list</string>
+    <string name="wallet_name_hint">Account name</string>
+    <string name="wallet_name_error">Please set account names with 1–12 digits</string>
+    <string name="wallet_name_exist">Username already exists</string>
+    <string name="wallet_pwd_hint">Account password</string>
+    <string name="wallet_pwd_tip_hint">password tip</string>
+    <string name="wallet_pwd_error">Please set passwords with 8–18 digits</string>
+    <string name="wallet_pwd_tip_error">Please set passwords tip with 8–18 digits</string>
+    <string name="wallet_pwd_match_error">Password does not match</string>
+    <string name="wallet_confirm_pwd_hint">Confirm account password</string>
+    <string name="wallet_memory_error">Out of memory!</string>
+
+    <string name="wallet_mnemonic_backup">Please backup the mnemonic words</string>
+    <string name="wallet_mnemonic_1">Those 12 mnemonic words are for recovering your wallet, write down correctly on paper and keep in a safe place</string>
+    <string name="wallet_mnemonic_2">Anyone with your mnemonic words can access or spend your assets! Please write down on paper and keep it safe.</string>
+    <string name="wallet_mnemonic_3">Don\'t screenshot</string>
+    <string name="wallet_mnemonic_4">Backup Failed</string>
+    <string name="wallet_mnemonic_5">You have not completed the backup of the mnemonic. Leave the current page, will remove the mnemonic from the SmartMesh wallet. Will you leave?</string>
+    <string name="wallet_mnemonic_6">The mnemonic sequence you backed up is verified correctly and the mnemonic will be removed from the SmartMesh wallet!</string>
+    <string name="wallet_mnemonic_7">Confirm your mnemonic words</string>
+    <string name="wallet_mnemonic_8">Please choose mnemonic words in order and make sure your mnemonic was correct written</string>
+    <string name="wallet_mnemonic_9">Please backup your wallet now!</string>
+    <string name="wallet_mnemonic_10">We highly recommend you write the Mnemonic words(Backup Phrase) on paper and keep it in a safe place,anyone get it can access or spend your assets.Also get start with a small amount of assets.</string>
+    <string name="wallet_mnemonic_11">Confirm failed, please examine your mnemonic words.</string>
+    <string name="wallet_mnemonic_12">Please use space to separate the mnemonic words</string>
+    <string name="wallet_mnemonic_13">Backup mnemonic</string>
+
+    <string name="wallet_export_private_key">Export private key</string>
+    <string name="wallet_export_keystore">Export keyStore</string>
+    <string name="wallet_export_name">Account name: %s</string>
+    <string name="wallet_export_pwd_info">Hint: %s</string>
+
+    <string name="wallet_update_name_exist">钱包名已存在!</string>
+    <string name="wallet_update_name_empty">钱包名称不能为空</string>
+    <string name="wallet_update_name_success">修改成功</string>
+
+</resources>
