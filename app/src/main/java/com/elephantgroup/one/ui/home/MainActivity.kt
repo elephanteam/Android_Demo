@@ -3,6 +3,7 @@ package com.elephantgroup.one.ui.home
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
+import butterknife.BindView
 import com.elephantgroup.one.R
 import com.elephantgroup.one.base.BaseActivity
 import com.kevin.tabindicator.TabPageIndicatorEx
@@ -11,17 +12,11 @@ import java.util.*
 
 class MainActivity : BaseActivity<MainContract.Presenter>(), MainContract.View {
 
-//    @JvmField @BindView(R.id.viewPager)  var viewPager: ViewPager ?= null
-//    @JvmField @BindView(R.id.tabIndicator)  var tabIndicator: TabPageIndicatorEx ?= null
+    @BindView(R.id.viewPager)
+    lateinit var viewPager: ViewPager
 
-//    @BindView(R.id.viewPager)
-//    lateinit var viewPager: ViewPager
-//
-//    @BindView(R.id.tabIndicator)
-//    lateinit var tabIndicator: TabPageIndicatorEx
-
-    lateinit var viewPager : ViewPager
-    lateinit var tabIndicator : TabPageIndicatorEx;
+    @BindView(R.id.tabIndicator)
+    lateinit var tabIndicator: TabPageIndicatorEx
 
     override fun getLayoutId(): Int {
         return R.layout.main_layout
