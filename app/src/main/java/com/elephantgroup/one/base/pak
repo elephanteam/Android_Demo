@@ -1,0 +1,4 @@
+APP基类
+
+其中BaseActivity 和BaseFragment暂时写的一样的模式，最终可能需要重新调整
+
