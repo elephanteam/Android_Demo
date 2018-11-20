@@ -3,11 +3,9 @@ package com.elephantgroup.one.ui.home
 import com.elephantgroup.one.base.BasePresenter
 import com.elephantgroup.one.base.BaseView
 
-interface MainContactContract {
+interface MainMineContract {
 
     interface View : BaseView
 
-    interface Presenter : BasePresenter{
-        fun loadData()
-    }
+    interface Presenter : BasePresenter
 }
